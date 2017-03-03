@@ -1,3 +1,12 @@
 # Pandoc-docker
 
 Docker image for [pandoc](http://pandoc.org/)
+
+Includes pandoc version 1.19.2.1, and the TeX / LaTeX packages required to
+produce PDF's. 
+
+## Running
+
+```
+docker -v `pwd`:/source lglenn/pandoc <pandoc options>
+```
